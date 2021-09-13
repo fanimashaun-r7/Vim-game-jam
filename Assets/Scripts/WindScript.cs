@@ -24,6 +24,8 @@ public class WindScript : MonoBehaviour
 
         int num = Random.Range(0, 3);
 
+        int previousNum;
+
         if(num == 0)
         {
             speed = 3;

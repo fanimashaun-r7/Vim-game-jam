@@ -9,11 +9,13 @@ public class PetalMovementControls : MonoBehaviour
     Rigidbody2D rb;
     Vector2 position = new Vector2(0f, 0f);
 
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
+    //movement
     private void Update()
     {
         mousePosition = Input.mousePosition;
@@ -25,4 +27,6 @@ public class PetalMovementControls : MonoBehaviour
     {
         rb.MovePosition(position);
     }
+
+    
 }

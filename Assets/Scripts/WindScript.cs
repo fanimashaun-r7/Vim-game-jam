@@ -6,6 +6,7 @@ public class WindScript : MonoBehaviour
 {
     public float speed = 1;
 
+    int previousNum = 2;
 
     public Vector2 endPoint;
 
@@ -21,30 +22,37 @@ public class WindScript : MonoBehaviour
 
     IEnumerator WindSpeed()
     {
-
-        int num = Random.Range(0, 3);
-
-        int previousNum;
-
-        if(num == 0)
+        
+        for (int i = 0; i < 100; i++)
         {
-            speed = 3;
-        }
-        else if (num == 1)
-        {
-            speed = 5;
-        }
-        else if (num == 2)
-        {
-            speed = 7;
-        }
+            int num = Random.Range(0, 3);
 
-        Debug.Log(num);
+            if (num == 0 && previousNum != 0)
+            {
+                speed = 5;
+                previousNum = 0;
+                i = 101;
+            }
+            if (num == 1 && previousNum != 1)
+            {
+                speed = 7;
+                previousNum = 1;
+                i = 101;
+            }
+            if (num == 2 && previousNum != 2)
+            {
+                speed = 9;
+                previousNum = 2;
+                i = 101;
+            }
+
+            Debug.Log(num);
+  
+        }
 
         yield return new WaitForSeconds(5f);
 
         RepeatWindLoop();
-
 
     }
 

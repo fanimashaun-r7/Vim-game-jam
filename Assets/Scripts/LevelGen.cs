@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelGen : MonoBehaviour
 {
     private const float PLAYER_DISTANCE_SPAWN_LEVEL_PART = 50f;
-    private const float PLAYER_DISTANCE_DELETE_LEVEL_PART = 100f;
+    private const float PLAYER_DISTANCE_DELETE_LEVEL_PART = -100f;
 
     [SerializeField] private Transform levelPart_Start;
     [SerializeField] private List<Transform> levelPartList;
@@ -29,15 +29,22 @@ public class LevelGen : MonoBehaviour
     {
         if(Vector3.Distance(petal.position, lastEndPosition) < PLAYER_DISTANCE_SPAWN_LEVEL_PART)
         {
-            SpawnLevelPart();
+           StartCoroutine(SpawnLevelPart());
         }
+
+       
+
     }
 
-    private void SpawnLevelPart()
+    IEnumerator SpawnLevelPart()
     {
         Transform chosenLevelPart = levelPartList[Random.Range(0, levelPartList.Count)];
         Transform lastLevelPartTransform = SpawnLevelPart(chosenLevelPart, lastEndPosition);
         lastEndPosition = lastLevelPartTransform.Find("EndPosition").position;
+
+        yield return new WaitForSeconds(30f);
+
+        Destroy(chosenLevelPart);
     }
 
     private Transform SpawnLevelPart(Transform levelPart, Vector3 spawnPosition)

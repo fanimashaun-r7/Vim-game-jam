@@ -13,7 +13,14 @@ public class CollisionDetector : MonoBehaviour
         {
             Death();
         }
+
+        if (collision.gameObject.tag == "LevelClearer")
+        {
+            Destroy(collision.gameObject);
+            Death();
+        }
     }
+
 
     public void Death()
     {

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Josh Test Scene.unity
     guid: 0bd2e265429e1a547ad0ee2738bf4fed
+  - enabled: 1
+    path: Assets/Scenes/Death Scene.unity
+    guid: 9eb8f675453fd402e8c203aba0336582
   m_configObjects: {}

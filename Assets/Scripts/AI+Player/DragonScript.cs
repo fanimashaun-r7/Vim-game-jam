@@ -27,11 +27,11 @@ public class DragonScript : MonoBehaviour
 
         if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
         {
-            speed = 10;
+            speed = 11;
         }
         else
         {
-            speed = 6;
+            speed = 7;
         }
     }
 

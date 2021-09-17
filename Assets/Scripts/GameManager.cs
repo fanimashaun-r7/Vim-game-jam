@@ -7,15 +7,19 @@ public class GameManager : MonoBehaviour
 {
     private ScoreManager scoreManager;
 
+    private PauseMenu pauseMenu;
+
     public GameObject GameOverUI;
 
     private void Start()
     {
         scoreManager = FindObjectOfType<ScoreManager>();
+        pauseMenu = FindObjectOfType<PauseMenu>();
     }
 
     public void GameOver()
     {
+        pauseMenu.isDead = true;
         scoreManager.isDead = true;
         GameOverUI.SetActive(true);
         Time.timeScale = 0f;

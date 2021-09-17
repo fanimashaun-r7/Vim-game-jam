@@ -23,21 +23,22 @@ public class GameManager : MonoBehaviour
         scoreManager.isDead = true;
         GameOverUI.SetActive(true);
         Time.timeScale = 0f;
-
-        
-        
+        AudioListener.pause = true;
+   
     }
 
     public void RestartButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
+        AudioListener.pause = false;
     }
 
     public void MainMenuButton()
     {
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
+        AudioListener.pause = false;
     }
 
 }

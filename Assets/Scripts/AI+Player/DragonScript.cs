@@ -8,8 +8,6 @@ public class DragonScript : MonoBehaviour
 
     public float speed = 1;
 
-    int previousNum = 2;
-
     public Vector2 endPoint;
 
     [SerializeField] private Transform petal;
@@ -20,6 +18,7 @@ public class DragonScript : MonoBehaviour
         //dragon moves to destination
         transform.position = Vector2.MoveTowards(transform.position, endPoint, speed * Time.deltaTime);
 
+        //dragon speeds up if it falls behind player
         if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
         {
             speed = 11;

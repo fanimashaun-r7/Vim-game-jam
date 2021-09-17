@@ -15,9 +15,11 @@ public class ScoreManager : MonoBehaviour
 
     public bool isDead;
 
+    
     private void Start()
     {
-        if(PlayerPrefs.GetFloat("HighScore") != null)
+        //checks the player prefs to see if thigh score field exists otherwise it will set highscore to 0
+        if (PlayerPrefs.HasKey("HighScore"))
         {
             highScoreCount = PlayerPrefs.GetFloat("HighScore");
         }
@@ -25,17 +27,20 @@ public class ScoreManager : MonoBehaviour
 
     private void Update()
     {
+        //as long as you are not dead increase score by points * time
         if(isDead == false)
         {
             scoreCount += pointsPerSecond * Time.deltaTime;
         }
 
+        //make highscore equal to score when score is greater than highscore
         if(scoreCount > highScoreCount)
         {
             highScoreCount = scoreCount;
             PlayerPrefs.SetFloat("HighScore", highScoreCount);
         }
 
+        //adding the numbers to the textfields
         scoreText.text = "" + Mathf.Round(scoreCount);
         highScoreText.text = "High Score: " + Mathf.Round(highScoreCount);
 

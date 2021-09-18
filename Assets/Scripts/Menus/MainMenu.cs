@@ -2,27 +2,48 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    public Button easy;
+    public Button medium;
+    public Button hard;
+    public Button proGamer;
+
+    public int difficulty;
+
     // Start is called before the first frame update
     public void PlayGames()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void ShowCredits()
+    public void EasyDif()
     {
-        SceneManager.LoadScene(3);
+        difficulty = 1;
+        PlayerPrefs.SetInt("Difficulty", difficulty);
+        PlayGames();
     }
 
-    public void ShowInstructions()
+    public void MediumDif()
     {
-        SceneManager.LoadScene(3);
+        difficulty = 2;
+        PlayerPrefs.SetInt("Difficulty", difficulty);
+        PlayGames();
     }
 
-    public void GoToMenu()
+    public void HardDif()
     {
-        SceneManager.LoadScene(0);
+        difficulty = 3;
+        PlayerPrefs.SetInt("Difficulty", difficulty);
+        PlayGames();
+    }
+
+    public void ProGamerDif()
+    {
+        difficulty = 4;
+        PlayerPrefs.SetInt("Difficulty", difficulty);
+        PlayGames();
     }
 }

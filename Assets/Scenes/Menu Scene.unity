@@ -1821,7 +1821,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 320295292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562009315}
+        m_MethodName: ProGamerDif
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &320295292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2281,7 +2292,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 392605881}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562009315}
+        m_MethodName: HardDif
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &392605881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3389,7 +3411,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &562009314
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3425,6 +3447,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adcc5a93618c4f8d8dd158255c91281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  easy: {fileID: 0}
+  medium: {fileID: 0}
+  hard: {fileID: 0}
+  proGamer: {fileID: 0}
+  difficulty: 0
 --- !u!114 &562009316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5700,7 +5727,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1011319898}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562009315}
+        m_MethodName: EasyDif
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1011319898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9126,7 +9164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1676863503
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10801,7 +10839,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1950854141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562009315}
+        m_MethodName: MediumDif
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1950854141
 MonoBehaviour:
   m_ObjectHideFlags: 0

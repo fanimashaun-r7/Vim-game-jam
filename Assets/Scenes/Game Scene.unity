@@ -3483,7 +3483,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652111740}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77fe7f557cae040a9274b3b7edab93, type: 3}
   m_Name: 
@@ -4316,7 +4316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelPart_Start: {fileID: 8477759610277290720}
   levelPartList:
-  - {fileID: 3300346119602394720, guid: b351242a3a221764e999c00e16d4eacd, type: 3}
+  - {fileID: 801356672839942308, guid: d3a47009261f38548b8d4a9c92d1b3dd, type: 3}
   petal: {fileID: 3790651222553769521}
 --- !u!4 &2052988308
 Transform:

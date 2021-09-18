@@ -3341,7 +3341,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7fbe0ca574df60a49bcc11182f2bdb75, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3482,7 +3482,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652111740}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc77fe7f557cae040a9274b3b7edab93, type: 3}
   m_Name: 
@@ -4314,7 +4314,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelPart_Start: {fileID: 8477759610277290720}
   levelPartList:
+  - {fileID: 4331633478536983567, guid: c37f14b5f9bcf37449f31c219bf5bd35, type: 3}
+  - {fileID: 45921419031197319, guid: afd073570000c124886f485fb3455a3c, type: 3}
+  - {fileID: 2249480319844381408, guid: 665443e785a5e28419b30780c9ce920e, type: 3}
+  - {fileID: 9220686897933279342, guid: c6bbb4121c1616b48a2f18d8b6b92260, type: 3}
+  - {fileID: 3566264327909679494, guid: 91673cede239d0243894470b08820bdd, type: 3}
+  - {fileID: 8595295325451890275, guid: 1e1a8e7cba79e75488cbbe5c8899b312, type: 3}
+  - {fileID: 3958771590404801820, guid: c4a1d4335e337694da51fffe0e140267, type: 3}
   - {fileID: 3568591330948480637, guid: 94553ab1872dc914cb4ca54802596bc3, type: 3}
+  - {fileID: 3941429635305015520, guid: 0e70546421a9d0443afd23059e2d8502, type: 3}
+  - {fileID: 2227450298349972727, guid: 32d33ee164eedb441900b65c93662d68, type: 3}
   petal: {fileID: 3790651222553769521}
 --- !u!4 &2052988308
 Transform:

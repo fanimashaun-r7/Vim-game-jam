@@ -25,8 +25,10 @@ public class DragonScript : MonoBehaviour
         }
         else
         {
-            speed = 7;
+            speed = 8;
         }
+
+        //5 easy, 6 medium, 7 hard, 8 pro gamer
     }
 
 }

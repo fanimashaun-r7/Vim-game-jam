@@ -6,17 +6,13 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public Button easy;
-    public Button medium;
-    public Button hard;
-    public Button proGamer;
 
-    public int difficulty;
+    private int difficulty;
 
     // Start is called before the first frame update
-    public void PlayGames()
+    private void PlayGames()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
     }
 
     public void EasyDif()

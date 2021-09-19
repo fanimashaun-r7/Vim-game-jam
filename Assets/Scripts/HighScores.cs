@@ -13,9 +13,9 @@ public class HighScores : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        easyText.text = "Easy Score: " + Mathf.Round(PlayerPrefs.GetFloat("HighScoreEasy"));
-        mediumText.text = "Medium Score: " + Mathf.Round(PlayerPrefs.GetFloat("HighScoreMedium"));
-        hardText.text = "Hard Score: " + Mathf.Round(PlayerPrefs.GetFloat("HighScoreHard"));
-        progamerText.text = "Pro-gamer Score: " + Mathf.Round(PlayerPrefs.GetFloat("HighScoreProGamer"));
+        easyText.text = Mathf.Round(PlayerPrefs.GetFloat("HighScoreEasy")).ToString();
+        mediumText.text = Mathf.Round(PlayerPrefs.GetFloat("HighScoreMedium")).ToString();
+        hardText.text = Mathf.Round(PlayerPrefs.GetFloat("HighScoreHard")).ToString();
+        progamerText.text = Mathf.Round(PlayerPrefs.GetFloat("HighScoreProGamer")).ToString();
     }
 }

@@ -544,7 +544,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: 04db0ad4bd1ed034fa627ff5339e97ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c1bcd2a2d4c0c944b44b9c105dd557d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1183,7 +1183,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: 04db0ad4bd1ed034fa627ff5339e97ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c1bcd2a2d4c0c944b44b9c105dd557d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1653,7 +1653,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 0b1a434c052140c42bbc3b0111d604aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99b4419b878b5af468fc2c9822c8b3be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2565,7 +2565,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9c56103f77ec4ba48b5ca89b6fef86dc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9916d6e77f83ae04e91c4620f8041cc4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -4554,7 +4554,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: 04db0ad4bd1ed034fa627ff5339e97ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c1bcd2a2d4c0c944b44b9c105dd557d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5010,7 +5010,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 0b1a434c052140c42bbc3b0111d604aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99b4419b878b5af468fc2c9822c8b3be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8122,7 +8122,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 0b1a434c052140c42bbc3b0111d604aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99b4419b878b5af468fc2c9822c8b3be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

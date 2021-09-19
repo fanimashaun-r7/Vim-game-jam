@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 2c9c2fa016f1e824daeb8be3c2fe528a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3080276998178163325
+    second: Ant separated_0
+  - first:
+      213: 7021066453199221255
+    second: Ant separated_1
+  - first:
+      213: 3313522264653609303
+    second: Ant separated_2
+  - first:
+      213: -880292633397233256
+    second: Ant separated_3
+  - first:
+      213: -8895208419872700633
+    second: Ant separated_4
+  - first:
+      213: -6331815314019707072
+    second: Ant separated_5
+  - first:
+      213: -713302503982924262
+    second: Ant separated_6
+  - first:
+      213: -8502543562305174197
+    second: Ant separated_7
+  - first:
+      213: -5417753102829969231
+    second: Ant separated_8
+  - first:
+      213: 6129198097290064479
+    second: Ant separated_9
+  - first:
+      213: -2907817104828067899
+    second: Ant separated_10
+  - first:
+      213: -2074708953861050901
+    second: Ant separated_11
+  - first:
+      213: 6342809502554692540
+    second: Ant separated_12
+  - first:
+      213: -5420391425365779831
+    second: Ant separated_13
+  - first:
+      213: 3562629384479891210
+    second: Ant separated_14
+  - first:
+      213: -8836642733279256566
+    second: Ant separated_15
+  - first:
+      213: 2201446670559136023
+    second: Ant separated_16
+  - first:
+      213: -5616235634039453177
+    second: Ant separated_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ant separated_0
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1702
+        width: 111
+        height: 120
+      alignment: 9
+      pivot: {x: 0.96264756, y: 0.033147175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a473e1c975fba20800000000000000
+      internalID: 3080276998178163325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_1
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1694
+        width: 82
+        height: 121
+      alignment: 9
+      pivot: {x: 0.9329127, y: 0.04233116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702f95f6db6df6160800000000000000
+      internalID: 7021066453199221255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_2
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1708
+        width: 177
+        height: 164
+      alignment: 9
+      pivot: {x: 0.82089317, y: 0.6168868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b604a1fefbfd20800000000000000
+      internalID: 3313522264653609303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_3
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1710
+        width: 93
+        height: 160
+      alignment: 9
+      pivot: {x: 0.02668352, y: 0.6508705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f6ff838298c3f0800000000000000
+      internalID: -880292633397233256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_4
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1700
+        width: 142
+        height: 179
+      alignment: 9
+      pivot: {x: 0.030017262, y: 0.5832942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7278c6a221fdd8480800000000000000
+      internalID: -8895208419872700633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_5
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1421
+        width: 154
+        height: 144
+      alignment: 9
+      pivot: {x: 0.9748543, y: 0.61833024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0471a70f48fd028a0800000000000000
+      internalID: -6331815314019707072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_6
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1468
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e73b0e627d916f0800000000000000
+      internalID: -713302503982924262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_7
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1442
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b450481bda5e00a80800000000000000
+      internalID: -8502543562305174197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_8
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1464
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0ac09e14640d4b0800000000000000
+      internalID: -5417753102829969231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_9
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 1442
+        width: 188
+        height: 125
+      alignment: 9
+      pivot: {x: 0.024166025, y: 0.4545625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5279f212394f0550800000000000000
+      internalID: 6129198097290064479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1298
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf0beadfbb55a7d0800000000000000
+      internalID: -2907817104828067899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_11
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed2ac0e2372533e0800000000000000
+      internalID: -2074708953861050901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_12
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1232
+        width: 20
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7839905, y: 0.8854178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb9ebd03af260850800000000000000
+      internalID: 6342809502554692540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1241
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98adf7397b6e6c4b0800000000000000
+      internalID: -5420391425365779831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_14
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1235
+        width: 33
+        height: 28
+      alignment: 9
+      pivot: {x: 0.8227169, y: 0.8549892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fda40bc80017130800000000000000
+      internalID: 3562629384479891210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_15
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1103
+        width: 195
+        height: 164
+      alignment: 9
+      pivot: {x: 0.97695875, y: 0.95888764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a006adba040fd5580800000000000000
+      internalID: -8836642733279256566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_16
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1064
+        width: 104
+        height: 212
+      alignment: 9
+      pivot: {x: 0.834509, y: 0.98559684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719c4a6451c1d8e10800000000000000
+      internalID: 2201446670559136023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ant separated_17
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1065
+        width: 127
+        height: 207
+      alignment: 9
+      pivot: {x: 0.052772824, y: 0.9836072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a003a627f1f02b0800000000000000
+      internalID: -5616235634039453177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

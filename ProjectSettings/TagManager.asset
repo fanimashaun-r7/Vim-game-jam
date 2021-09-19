@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Petal
   - DeathCollider
+  - LevelClearer
   layers:
   - Default
   - TransparentFX

@@ -3280,7 +3280,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Avoid the ants, webs and lady bugs
+  m_Text: Avoid the obstacles and enemies
 --- !u!222 &641985931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Control the petal with your mouse
+  m_Text: Control the blossom with your mouse
 --- !u!222 &768984511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4472,7 +4472,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 631c2b1234baba34d826611d12688005, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7f9e958b3333ed4f821e1e09cd08325, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4675,7 +4675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.26255, y: 76.00585}
+  m_AnchoredPosition: {x: -105.26245, y: 76.00585}
   m_SizeDelta: {x: 210.5251, y: 152.0117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903003277
@@ -5607,7 +5607,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 631c2b1234baba34d826611d12688005, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7f9e958b3333ed4f821e1e09cd08325, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5728,7 +5728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.26255, y: 76.00585}
+  m_AnchoredPosition: {x: -105.26245, y: 76.00585}
   m_SizeDelta: {x: 210.5251, y: 152.0117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162176669
@@ -6002,7 +6002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.26255, y: 76.00585}
+  m_AnchoredPosition: {x: -105.26245, y: 76.00585}
   m_SizeDelta: {x: 210.5251, y: 152.0117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1200772464
@@ -6919,7 +6919,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Avoid the dragon at all costs
+  m_Text: Don't get eaten by Muzag
 --- !u!222 &1394419549
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7194,7 +7194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.26255, y: 76.00585}
+  m_AnchoredPosition: {x: -105.26245, y: 76.00585}
   m_SizeDelta: {x: 210.5251, y: 152.0117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520880042
@@ -7511,7 +7511,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 631c2b1234baba34d826611d12688005, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7f9e958b3333ed4f821e1e09cd08325, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7661,7 +7661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -105.26255, y: 76.00585}
+  m_AnchoredPosition: {x: -105.26245, y: 76.00585}
   m_SizeDelta: {x: 210.5251, y: 152.0117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629813690
@@ -8042,7 +8042,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The branches are your obstacles
+  m_Text: Navigate through the branches
 --- !u!222 &1665365241
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8756,7 +8756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -49.999817}
+  m_AnchoredPosition: {x: 0, y: -49.999756}
   m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1792571950

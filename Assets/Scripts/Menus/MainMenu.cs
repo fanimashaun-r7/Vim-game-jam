@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
     private int difficulty;
 
     // Start is called before the first frame update
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
     private void PlayGames()
     {
         SceneManager.LoadScene(1);

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelClearer : MonoBehaviour
 {
-    public float lifetime = 30f;
+    public float lifetime = 60f;
 
     private void Start()
     {

@@ -70,7 +70,7 @@ public class DragonScript : MonoBehaviour
             }
             else
             {
-                speed = 11;
+                speed = 10;
             }
         }
         

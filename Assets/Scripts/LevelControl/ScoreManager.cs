@@ -7,6 +7,7 @@ public class ScoreManager : MonoBehaviour
 {
     public Text scoreText;
     public Text highScoreText;
+    public Text centreHighScoreText;
 
     public float scoreCount;
     public float highScoreCount;
@@ -88,6 +89,8 @@ public class ScoreManager : MonoBehaviour
         //adding the numbers to the textfields
         scoreText.text = "" + Mathf.Round(scoreCount);
         highScoreText.text = "High Score: " + Mathf.Round(highScoreCount);
+        centreHighScoreText.text = "High Score: " + Mathf.Round(highScoreCount);
+
 
     }
 

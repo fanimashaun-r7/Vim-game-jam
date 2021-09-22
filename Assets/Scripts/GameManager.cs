@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class GameManager : MonoBehaviour
     private PauseMenu pauseMenu;
 
     public GameObject GameOverUI;
+
+    public GameObject highscore;
 
     private void Start()
     {
@@ -24,6 +27,7 @@ public class GameManager : MonoBehaviour
         GameOverUI.SetActive(true);
         Time.timeScale = 0f;
         AudioListener.pause = true;
+        highscore.SetActive(false);
    
     }
 

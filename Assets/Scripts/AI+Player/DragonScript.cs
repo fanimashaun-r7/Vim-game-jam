@@ -30,7 +30,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 12;
+                speed = 13;
             }
             else
             {
@@ -42,7 +42,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 12;
+                speed = 13;
             }
             else
             {
@@ -54,7 +54,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 12;
+                speed = 13;
             }
             else
             {
@@ -66,7 +66,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 12;
+                speed = 13;
             }
             else
             {

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameOverScreen : MonoBehaviour
 {
     public GameObject GameOverUI;
+    public Text highscore;
 
     void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.tag == "DeathCollider")

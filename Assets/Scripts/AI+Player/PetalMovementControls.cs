@@ -22,8 +22,8 @@ public class PetalMovementControls : MonoBehaviour
     //movement
     private void Update()
     {
-        MouseMovement();
-        //FingerControl();
+        //MouseMovement();
+        FingerControl();
     }
 
     private void MouseMovement()
@@ -51,10 +51,10 @@ public class PetalMovementControls : MonoBehaviour
     }
 
     // for mouse movement
-    private void FixedUpdate()
+    /*private void FixedUpdate()
     {
         rb.MovePosition(position);
-    }
+    }*/
 
 
 }

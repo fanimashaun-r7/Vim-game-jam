@@ -304,6 +304,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -385,6 +386,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -625,12 +627,12 @@ PrefabInstance:
     - target: {fileID: 3193514240631464006, guid: c377a4af3c9ae3a4ea6537095488a535,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.04
+      value: 4.41
       objectReference: {fileID: 0}
     - target: {fileID: 3193514240631464006, guid: c377a4af3c9ae3a4ea6537095488a535,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.41
+      value: 2.82
       objectReference: {fileID: 0}
     - target: {fileID: 3193514240631464006, guid: c377a4af3c9ae3a4ea6537095488a535,
         type: 3}

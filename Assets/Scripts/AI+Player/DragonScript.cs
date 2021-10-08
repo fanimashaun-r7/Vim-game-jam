@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DragonScript : MonoBehaviour
 {
-    private const float DISTANCE_FROM_DRAGON = 15f;
+    private const float DISTANCE_FROM_DRAGON = 18f;
 
     public float speed = 1;
 
@@ -30,7 +30,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 13;
+                speed = 15;
             }
             else
             {
@@ -42,7 +42,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 13;
+                speed = 15;
             }
             else
             {
@@ -54,7 +54,7 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 13;
+                speed = 15;
             }
             else
             {
@@ -66,16 +66,17 @@ public class DragonScript : MonoBehaviour
             //dragon speeds up if it falls behind player
             if (Vector3.Distance(petal.position, dragon.position) > DISTANCE_FROM_DRAGON)
             {
-                speed = 13;
+                speed = 15;
             }
             else
             {
-                speed = 10;
+                speed = 11;
             }
         }
         
 
-        //3 easy, 5 medium, 7 hard, 9 pro gamer
+        //4 easy, 6 medium, 8 hard, 11 pro gamer on PC
+        //3 easy, 4 medium, 5 hard, 7 progamer phone
         
     }
 
